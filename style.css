@@ -706,7 +706,8 @@ body {
 
 @media only screen and (max-width: 26.25em) {
   .composition__photo--p1 {
-    max-width: 50%;
+    max-width: 30%;
+    left: 10rem;
   }
 }
 .composition__photo--p2 {
@@ -717,7 +718,8 @@ body {
 
 @media only screen and (max-width: 26.25em) {
   .composition__photo--p2 {
-    max-width: 50%;
+    max-width: 30%;
+    right: 10rem;
   }
 }
 
@@ -729,7 +731,7 @@ body {
 
 @media only screen and (max-width: 26.25em) {
   .composition__photo--p3 {
-    max-width: 50%;
+    max-width: 30%;  
   }
 }
 .composition__photo--p1:hover {
