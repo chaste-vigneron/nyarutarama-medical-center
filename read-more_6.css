@@ -1,0 +1,116 @@
+/*
+COLORS:
+
+Light green: #7ed56f
+Medium green: #55c57a
+Dark green: #28b485
+
+*/
+
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 62.5%;
+}
+/*'only screen and' means that our media query will be applied on screens only not on printing*/
+/*'only screen and (hover: none)' means that our media query will be applied on devices with no hover options 
+eg:smart phones or touch screens*/
+@media only screen and (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+@media only screen and (max-width: 75em) {
+  html {
+    font-size: 50.25%;
+  }
+}
+@media only screen and (max-width: 56.25em) {
+  html {
+    font-size: 34%;
+  }
+}
+@media only screen and (max-width: 38.25em) {
+  html {
+    font-size: 26%;
+  }
+}
+
+body {
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  /* font-size: 16px;*/
+  line-height: 1.7;
+  color: black;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+      to right,
+      rgba(23, 154, 232, 1),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url(happy\ old\ couple.jpg);
+  background-size: cover;
+}
+.over-review {
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.over {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 8rem;
+}
+.det {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.title {
+  padding-bottom: 10rem;
+}
+.sy {
+  margin-bottom: 10rem;
+}
+.symp {
+  max-width: 100%;
+}
+.header__logo {
+  height: 30vh;
+}
+@media only screen and (max-width: 38.25em) {
+  .header__logo {
+    height: 15vh;
+  }
+}
+
+/*420px*/
+@media only screen and (max-width: 26.25em) {
+  .header__logo {
+    height: 12vh;
+  }
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 7rem 5rem;
+  background-color: rgb(54, 49, 49);
+  align-items: center;
+  justify-items: center;
+  max-width: 100%;
+}
+.footer-tittle {
+  font-size: 1.5rem;
+  color: rgba(23, 154, 232, 1);
+}
+.footer-link {
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 1.2rem;
+  display: block;
+}
