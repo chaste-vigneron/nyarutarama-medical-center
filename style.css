@@ -18,6 +18,13 @@ Dark green: #28b485
 html {
   font-size: 62.5%;
 }
+
+@media only screen and (max-width: 26.25em) {
+  body {
+    margin-left: 1rem;
+  }
+}
+
 /*1200px*/
 @media only screen and (max-width: 75em) {
   html {
