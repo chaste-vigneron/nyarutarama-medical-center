@@ -15,12 +15,6 @@ Dark green: #28b485
   box-sizing: inherit;
 }
 
-@media only screen and (max-width: 26.25em) {
-  body {
-    margin-left: 1rem;
-  }
-}
-
 html {
   font-size: 62.5%;
 }
