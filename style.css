@@ -866,6 +866,8 @@ body {
 @media only screen and (max-width: 26.25em) {
   .row-4 {
     transform: skewX(0deg);
+     display: grid;
+    grid-template-columns: 1fr;
   }
 }
 
@@ -876,6 +878,7 @@ body {
 
 @media only screen and (max-width: 26.25em) {
   .row-4 > * {
+    
     transform: skewX(0deg);
   }
 }
