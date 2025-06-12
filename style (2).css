@@ -415,7 +415,7 @@ html {
 
 .values {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .values-1 {
   border: 2px solid rgb(3, 140, 245);
