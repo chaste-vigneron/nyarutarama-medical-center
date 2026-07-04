@@ -367,6 +367,8 @@ html {
   font-weight: 1000;
 }
 
+/* insurance section*/
+
 .insu {
   max-width: 100%;
 }
@@ -425,17 +427,35 @@ html {
 
 .values {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.values-3 {
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
+
 .values-1 {
+  border: 2px solid rgb(3, 140, 245);
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.values-2 {
+  border: 2px solid rgb(3, 140, 245);
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+.values-4 {
   border: 2px solid rgb(3, 140, 245);
   margin: 1rem;
 }
 .values-1_icon_pic {
-  max-width: 25%;
+  max-width: 15%;
+  margin-left: rem;
 }
 .doc-pic {
   max-width: 100%;
+  display: block;
+  margin-inline: auto; /* Automatically centers on the horizontal axis */
 }
 .doc {
   font-size: 2rem;
@@ -448,7 +468,7 @@ html {
   font-size: 2rem;
   text-align: center;
   font-family: sans-serif;
-  margin: 0.5rem;
+
   display: block;
 }
 .values-1_cap {
@@ -532,11 +552,8 @@ html {
   max-width: 100%;
 }
 .section__stories {
-  background-image: linear-gradient(
-      to left,
-      rgb(255, 255, 255, 0.8),
-      rgba(200, 206, 212, 0.8)
-    ),
+  background-image:
+    linear-gradient(to left, rgb(255, 255, 255, 0.8), rgba(200, 206, 212, 0.8)),
     url(26.jpg);
   background-size: cover;
   padding: 15rem 0rem;
@@ -661,7 +678,6 @@ html {
   margin-left: 2rem;
   margin-top: 2rem;
 }
-
 
 /*420px*/
 
